@@ -204,7 +204,7 @@ const Step1: FC<{ onNext: () => void; formContent: Dictionary['formModal'] }> = 
                                 <option value=''>{formContent.step1.month}</option>
                                 {months.map((month, index) => (
                                     <option key={month} value={index + 1}>
-                                        {month}
+                                        {index + 1}
                                     </option>
                                 ))}
                             </select>
